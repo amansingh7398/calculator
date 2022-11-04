@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    background-color: green;
+    text-align: center;
+}
+
+.btn {
+    color: black;
+    height: 70px;
+    width: 60px;
+    border-radius: 8px;
+    margin: 0 2px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.container {
+    display: block;
+    text-align: center;
+    border: 2px solid black;
+    /* width: 70vw; */
+    /* display: flex; */
+
+}
+
+.display {
+    height: 70px;
+    width: 300px;
+    text-align: center;
+    font-size: large;
+
+
+
+
+}
+
+input {
+    text-align: center;
+    background-color: aqua;
+}
+
+.row {
+    margin: 8px 0;
+}
