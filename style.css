@@ -10,8 +10,12 @@ body {
 }
 
 h1 {
-    background-color: green;
+    padding: 10px;
+    background-color: rgb(16, 17, 16);
     text-align: center;
+    color: beige;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Graduate', cursive;
 }
 
 .btn {
@@ -28,28 +32,44 @@ h1 {
 .container {
     display: block;
     text-align: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     /* width: 70vw; */
     /* display: flex; */
 
 }
 
-.display {
+.input {
     height: 70px;
     width: 300px;
     text-align: center;
     font-size: large;
-
-
-
-
+    background-color: aqua;
+    border: 3px solid greenyellow;
+    border-radius: 9px;
 }
 
-input {
+.atn1 {
+    background-color: tomato;
+}
+
+.atn2 {
+    background-color: cadetblue;
+}
+
+.display {
     text-align: center;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 .row {
     margin: 8px 0;
+}
+
+footer {
+    margin-top: 150px;
+    padding: 5px;
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+
 }
